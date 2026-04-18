@@ -1,0 +1,51 @@
+subject,username,email,department,active,roles
+pmc-admin-01,pmc.admin,pmc.admin@municipal.local,Municipal Administration,True,municipal-admin
+pmc-lic-01,pmc.lic.kasbavishramba,pmc.lic.kasbavishramba@municipal.local,License Department - Kasba Vishrambagwada,True,licensing-officer
+pmc-lic-02,pmc.lic.bhavanipeth,pmc.lic.bhavanipeth@municipal.local,License Department - Bhavani Peth,True,licensing-officer
+pmc-lic-03,pmc.lic.bibwewadi,pmc.lic.bibwewadi@municipal.local,License Department - Bibwewadi,True,licensing-officer
+pmc-lic-04,pmc.lic.tilakroad,pmc.lic.tilakroad@municipal.local,License Department - Tilak Road,True,licensing-officer
+pmc-lic-05,pmc.lic.dhankawadisaha,pmc.lic.dhankawadisaha@municipal.local,License Department - Dhankawadi Sahakarnagar,True,licensing-officer
+pmc-lic-06,pmc.lic.hadapsarmundhw,pmc.lic.hadapsarmundhw@municipal.local,License Department - Hadapsar Mundhwa,True,licensing-officer
+pmc-lic-07,pmc.lic.wanowrieramtek,pmc.lic.wanowrieramtek@municipal.local,License Department - Wanowrie Ramtekdi,True,licensing-officer
+pmc-lic-08,pmc.lic.kondhwayewalew,pmc.lic.kondhwayewalew@municipal.local,License Department - Kondhwa Yewalewadi,True,licensing-officer
+pmc-lic-09,pmc.lic.aundhbaner,pmc.lic.aundhbaner@municipal.local,License Department - Aundh Baner,True,licensing-officer
+pmc-lic-10,pmc.lic.warjekarvenaga,pmc.lic.warjekarvenaga@municipal.local,License Department - Warje Karvenagar,True,licensing-officer
+pmc-lic-11,pmc.lic.kothrudbavdhan,pmc.lic.kothrudbavdhan@municipal.local,License Department - Kothrud Bavdhan,True,licensing-officer
+pmc-lic-12,pmc.lic.shivajinagargh,pmc.lic.shivajinagargh@municipal.local,License Department - Shivajinagar Ghole Road,True,licensing-officer
+pmc-lic-13,pmc.lic.dholepatil,pmc.lic.dholepatil@municipal.local,License Department - Dhole Patil,True,licensing-officer
+pmc-lic-14,pmc.lic.nagarroadvadga,pmc.lic.nagarroadvadga@municipal.local,License Department - Nagar Road Vadgaon Sheri,True,licensing-officer
+pmc-lic-15,pmc.lic.yerwadakalasdh,pmc.lic.yerwadakalasdh@municipal.local,License Department - Yerwada Kalas Dhanori,True,licensing-officer
+pmc-lic-16,pmc.lic.sinhagadroad,pmc.lic.sinhagadroad@municipal.local,License Department - Sinhagad Road,True,licensing-officer
+pmc-viewer-01,pmc.viewer1,pmc.viewer1@municipal.local,Citizen Facilitation Centre,True,viewer
+pmc-viewer-02,pmc.viewer2,pmc.viewer2@municipal.local,Citizen Facilitation Centre,True,viewer
+pmc-viewer-03,pmc.viewer3,pmc.viewer3@municipal.local,Citizen Facilitation Centre,True,viewer
+pmc-audit-01,pmc.audit,pmc.audit@municipal.local,Internal Audit,True,auditor
+bmc-admin-01,bmc.admin,bmc.admin@municipal.local,Municipal Administration,True,municipal-admin
+bmc-lic-01,bmc.lic.award,bmc.lic.award@municipal.local,License Department - A Ward,True,licensing-officer
+bmc-lic-02,bmc.lic.bward,bmc.lic.bward@municipal.local,License Department - B Ward,True,licensing-officer
+bmc-lic-03,bmc.lic.cward,bmc.lic.cward@municipal.local,License Department - C Ward,True,licensing-officer
+bmc-lic-04,bmc.lic.dward,bmc.lic.dward@municipal.local,License Department - D Ward,True,licensing-officer
+bmc-lic-05,bmc.lic.eward,bmc.lic.eward@municipal.local,License Department - E Ward,True,licensing-officer
+bmc-lic-06,bmc.lic.fsward,bmc.lic.fsward@municipal.local,License Department - F/S Ward,True,licensing-officer
+bmc-lic-07,bmc.lic.fnward,bmc.lic.fnward@municipal.local,License Department - F/N Ward,True,licensing-officer
+bmc-lic-08,bmc.lic.gsward,bmc.lic.gsward@municipal.local,License Department - G/S Ward,True,licensing-officer
+bmc-lic-09,bmc.lic.gnward,bmc.lic.gnward@municipal.local,License Department - G/N Ward,True,licensing-officer
+bmc-lic-10,bmc.lic.heward,bmc.lic.heward@municipal.local,License Department - H/E Ward,True,licensing-officer
+bmc-lic-11,bmc.lic.hwward,bmc.lic.hwward@municipal.local,License Department - H/W Ward,True,licensing-officer
+bmc-lic-12,bmc.lic.keward,bmc.lic.keward@municipal.local,License Department - K/E Ward,True,licensing-officer
+bmc-lic-13,bmc.lic.kwward,bmc.lic.kwward@municipal.local,License Department - K/W Ward,True,licensing-officer
+bmc-lic-14,bmc.lic.psward,bmc.lic.psward@municipal.local,License Department - P/S Ward,True,licensing-officer
+bmc-lic-15,bmc.lic.pnward,bmc.lic.pnward@municipal.local,License Department - P/N Ward,True,licensing-officer
+bmc-lic-16,bmc.lic.rsward,bmc.lic.rsward@municipal.local,License Department - R/S Ward,True,licensing-officer
+bmc-lic-17,bmc.lic.rcward,bmc.lic.rcward@municipal.local,License Department - R/C Ward,True,licensing-officer
+bmc-lic-18,bmc.lic.rnward,bmc.lic.rnward@municipal.local,License Department - R/N Ward,True,licensing-officer
+bmc-lic-19,bmc.lic.lward,bmc.lic.lward@municipal.local,License Department - L Ward,True,licensing-officer
+bmc-lic-20,bmc.lic.meward,bmc.lic.meward@municipal.local,License Department - M/E Ward,True,licensing-officer
+bmc-lic-21,bmc.lic.mwward,bmc.lic.mwward@municipal.local,License Department - M/W Ward,True,licensing-officer
+bmc-lic-22,bmc.lic.nward,bmc.lic.nward@municipal.local,License Department - N Ward,True,licensing-officer
+bmc-lic-23,bmc.lic.sward,bmc.lic.sward@municipal.local,License Department - S Ward,True,licensing-officer
+bmc-lic-24,bmc.lic.tward,bmc.lic.tward@municipal.local,License Department - T Ward,True,licensing-officer
+bmc-viewer-01,bmc.viewer1,bmc.viewer1@municipal.local,Citizen Facilitation Centre,True,viewer
+bmc-viewer-02,bmc.viewer2,bmc.viewer2@municipal.local,Citizen Facilitation Centre,True,viewer
+bmc-viewer-03,bmc.viewer3,bmc.viewer3@municipal.local,Citizen Facilitation Centre,True,viewer
+bmc-audit-01,bmc.audit,bmc.audit@municipal.local,Internal Audit,True,auditor

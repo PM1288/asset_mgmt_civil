@@ -1,0 +1,20 @@
+dn: ou=people,dc=municipal,dc=local
+objectClass: organizationalUnit
+ou: people
+
+dn: ou=groups,dc=municipal,dc=local
+objectClass: organizationalUnit
+ou: groups
+
+dn: uid=platform-admin,ou=people,dc=municipal,dc=local
+objectClass: inetOrgPerson
+cn: Platform Admin
+sn: Admin
+uid: platform-admin
+mail: admin@municipal.local
+userPassword: change-me
+
+dn: cn=municipal-admin,ou=groups,dc=municipal,dc=local
+objectClass: groupOfNames
+cn: municipal-admin
+member: uid=platform-admin,ou=people,dc=municipal,dc=local

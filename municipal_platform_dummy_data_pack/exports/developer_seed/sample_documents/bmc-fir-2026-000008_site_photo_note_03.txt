@@ -1,0 +1,6 @@
+BMC-FIR-2026-000008
+site_photo_note
+Ward: F/S Ward
+City: Mumbai
+Applicant: Shalini Naik
+Generated for synthetic demo use only.

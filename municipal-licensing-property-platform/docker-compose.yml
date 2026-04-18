@@ -1,0 +1,260 @@
+services:
+  proxy:
+    image: caddy:2.8
+    container_name: municipal-proxy
+    restart: unless-stopped
+    environment:
+      APP_HOSTNAME: ${APP_HOSTNAME:-localhost}
+    ports:
+      - "${HTTP_PORT:-8080}:8080"
+      - "${HTTPS_PORT:-8443}:8443"
+    volumes:
+      - ./infra/caddy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      api:
+        condition: service_healthy
+      frontend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "caddy", "version"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  db:
+    image: postgres:16-bookworm
+    container_name: municipal-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${APP_DB_NAME:-appdb}
+      POSTGRES_USER: ${APP_DB_USER:-app}
+      POSTGRES_PASSWORD: ${APP_DB_PASSWORD:-change-me}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${APP_DB_USER:-app} -d ${APP_DB_NAME:-appdb}"]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+    logging:
+      options:
+        max-size: "20m"
+        max-file: "5"
+
+  keycloak-db:
+    image: postgres:16-bookworm
+    container_name: municipal-keycloak-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${KEYCLOAK_DB_NAME:-keycloak}
+      POSTGRES_USER: ${KEYCLOAK_DB_USER:-keycloak}
+      POSTGRES_PASSWORD: ${KEYCLOAK_DB_PASSWORD:-change-me-too}
+    volumes:
+      - keycloak_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${KEYCLOAK_DB_USER:-keycloak} -d ${KEYCLOAK_DB_NAME:-keycloak}"]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+    logging:
+      options:
+        max-size: "20m"
+        max-file: "5"
+
+  redis:
+    image: redis:7.4-alpine
+    container_name: municipal-redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes", "--save", "60", "1000", "--maxmemory", "256mb", "--maxmemory-policy", "allkeys-lru"]
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:25.0.6
+    container_name: municipal-keycloak
+    restart: unless-stopped
+    command:
+      - start-dev
+      - --import-realm
+      - --health-enabled=true
+      - --http-relative-path=/auth
+    environment:
+      KEYCLOAK_ADMIN: ${KEYCLOAK_ADMIN_USER:-admin}
+      KEYCLOAK_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:-change-me}
+      KC_DB: postgres
+      KC_DB_URL_HOST: keycloak-db
+      KC_DB_URL_PORT: 5432
+      KC_DB_URL_DATABASE: ${KEYCLOAK_DB_NAME:-keycloak}
+      KC_DB_USERNAME: ${KEYCLOAK_DB_USER:-keycloak}
+      KC_DB_PASSWORD: ${KEYCLOAK_DB_PASSWORD:-change-me-too}
+      KC_HTTP_PORT: 8080
+      KC_HOSTNAME_STRICT: false
+      KC_PROXY_HEADERS: xforwarded
+    volumes:
+      - ./security/keycloak/realm-export.json:/opt/keycloak/data/import/realm-export.json:ro
+    depends_on:
+      keycloak-db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c '</dev/tcp/127.0.0.1/8080'"]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+    logging:
+      options:
+        max-size: "20m"
+        max-file: "5"
+
+  api:
+    build:
+      context: ./backend
+    image: municipal-api:${RELEASE_TAG:-local}
+    container_name: municipal-api
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgresql+psycopg://${APP_DB_USER:-app}:${APP_DB_PASSWORD:-change-me}@db:5432/${APP_DB_NAME:-appdb}
+      REDIS_URL: redis://redis:6379/0
+      KEYCLOAK_ISSUER_URL: https://${APP_HOSTNAME:-localhost}:${HTTPS_PORT:-8443}/auth/realms/${KEYCLOAK_REALM:-municipal}
+      KEYCLOAK_JWKS_URL: http://keycloak:8080/auth/realms/${KEYCLOAK_REALM:-municipal}/protocol/openid-connect/certs
+      APP_ENCRYPTION_KEY: ${APP_ENCRYPTION_KEY}
+      ALLOWED_ORIGINS: '["https://${APP_HOSTNAME:-localhost}:${HTTPS_PORT:-8443}"]'
+      ENVIRONMENT: ${ENVIRONMENT:-production}
+      ENABLE_OPENAPI: ${ENABLE_OPENAPI:-true}
+    volumes:
+      - ./runtime/backups:/srv/backups
+      - ./runtime/documents:/srv/documents
+      - ./runtime/logs/api:/srv/logs
+      - ./runtime/app:/srv/runtime
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      keycloak:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8000/health/live"]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+    mem_limit: 1024m
+    cpus: 2.0
+    logging:
+      options:
+        max-size: "20m"
+        max-file: "5"
+
+  worker:
+    image: municipal-api:${RELEASE_TAG:-local}
+    container_name: municipal-worker
+    restart: unless-stopped
+    command: ["celery", "-A", "app.tasks.celery_app.celery_app", "worker", "--loglevel=INFO", "--concurrency=2"]
+    environment:
+      DATABASE_URL: postgresql+psycopg://${APP_DB_USER:-app}:${APP_DB_PASSWORD:-change-me}@db:5432/${APP_DB_NAME:-appdb}
+      REDIS_URL: redis://redis:6379/0
+      KEYCLOAK_ISSUER_URL: https://${APP_HOSTNAME:-localhost}:${HTTPS_PORT:-8443}/auth/realms/${KEYCLOAK_REALM:-municipal}
+      KEYCLOAK_JWKS_URL: http://keycloak:8080/auth/realms/${KEYCLOAK_REALM:-municipal}/protocol/openid-connect/certs
+      APP_ENCRYPTION_KEY: ${APP_ENCRYPTION_KEY}
+      ENVIRONMENT: ${ENVIRONMENT:-production}
+    volumes:
+      - ./runtime/backups:/srv/backups
+      - ./runtime/documents:/srv/documents
+      - ./runtime/logs/worker:/srv/logs
+      - ./runtime/app:/srv/runtime
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      disable: true
+    mem_limit: 1024m
+    cpus: 2.0
+    logging:
+      options:
+        max-size: "20m"
+        max-file: "5"
+
+  beat:
+    image: municipal-api:${RELEASE_TAG:-local}
+    container_name: municipal-beat
+    restart: unless-stopped
+    command: ["celery", "-A", "app.tasks.celery_app.celery_app", "beat", "--loglevel=INFO"]
+    environment:
+      DATABASE_URL: postgresql+psycopg://${APP_DB_USER:-app}:${APP_DB_PASSWORD:-change-me}@db:5432/${APP_DB_NAME:-appdb}
+      REDIS_URL: redis://redis:6379/0
+      KEYCLOAK_ISSUER_URL: https://${APP_HOSTNAME:-localhost}:${HTTPS_PORT:-8443}/auth/realms/${KEYCLOAK_REALM:-municipal}
+      KEYCLOAK_JWKS_URL: http://keycloak:8080/auth/realms/${KEYCLOAK_REALM:-municipal}/protocol/openid-connect/certs
+      APP_ENCRYPTION_KEY: ${APP_ENCRYPTION_KEY}
+      ENVIRONMENT: ${ENVIRONMENT:-production}
+    volumes:
+      - ./runtime/backups:/srv/backups
+      - ./runtime/documents:/srv/documents
+      - ./runtime/logs/beat:/srv/logs
+      - ./runtime/app:/srv/runtime
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      disable: true
+    mem_limit: 512m
+    cpus: 1.0
+    logging:
+      options:
+        max-size: "20m"
+        max-file: "5"
+
+  frontend:
+    build:
+      context: ./frontend
+    image: municipal-frontend:${RELEASE_TAG:-local}
+    container_name: municipal-frontend
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1/"]
+      interval: 20s
+      timeout: 5s
+      retries: 5
+    mem_limit: 256m
+    cpus: 1.0
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  migrations:
+    image: municipal-api:${RELEASE_TAG:-local}
+    container_name: municipal-migrations
+    profiles: ["ops"]
+    command: ["alembic", "upgrade", "head"]
+    environment:
+      DATABASE_URL: postgresql+psycopg://${APP_DB_USER:-app}:${APP_DB_PASSWORD:-change-me}@db:5432/${APP_DB_NAME:-appdb}
+      APP_ENCRYPTION_KEY: ${APP_ENCRYPTION_KEY}
+      KEYCLOAK_ISSUER_URL: https://${APP_HOSTNAME:-localhost}:${HTTPS_PORT:-8443}/auth/realms/${KEYCLOAK_REALM:-municipal}
+      KEYCLOAK_JWKS_URL: http://keycloak:8080/auth/realms/${KEYCLOAK_REALM:-municipal}/protocol/openid-connect/certs
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
+  keycloak_postgres_data:
+  redis_data:
+  caddy_data:
+  caddy_config:

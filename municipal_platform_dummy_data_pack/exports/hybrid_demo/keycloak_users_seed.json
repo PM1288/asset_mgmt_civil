@@ -1,0 +1,1105 @@
+{
+  "realm": "municipal",
+  "users": [
+    {
+      "username": "pmc.admin",
+      "enabled": true,
+      "email": "pmc.admin@municipal.local",
+      "firstName": "PMC",
+      "lastName": "Municipal Administration",
+      "attributes": {
+        "department": [
+          "Municipal Administration"
+        ]
+      },
+      "realmRoles": [
+        "municipal-admin"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.kasbavishramba",
+      "enabled": true,
+      "email": "pmc.lic.kasbavishramba@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Kasba Vishrambagwada"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.bhavanipeth",
+      "enabled": true,
+      "email": "pmc.lic.bhavanipeth@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Bhavani Peth"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.bibwewadi",
+      "enabled": true,
+      "email": "pmc.lic.bibwewadi@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Bibwewadi"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.tilakroad",
+      "enabled": true,
+      "email": "pmc.lic.tilakroad@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Tilak Road"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.dhankawadisaha",
+      "enabled": true,
+      "email": "pmc.lic.dhankawadisaha@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Dhankawadi Sahakarnagar"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.hadapsarmundhw",
+      "enabled": true,
+      "email": "pmc.lic.hadapsarmundhw@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Hadapsar Mundhwa"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.wanowrieramtek",
+      "enabled": true,
+      "email": "pmc.lic.wanowrieramtek@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Wanowrie Ramtekdi"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.kondhwayewalew",
+      "enabled": true,
+      "email": "pmc.lic.kondhwayewalew@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Kondhwa Yewalewadi"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.aundhbaner",
+      "enabled": true,
+      "email": "pmc.lic.aundhbaner@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Aundh Baner"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.warjekarvenaga",
+      "enabled": true,
+      "email": "pmc.lic.warjekarvenaga@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Warje Karvenagar"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.kothrudbavdhan",
+      "enabled": true,
+      "email": "pmc.lic.kothrudbavdhan@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Kothrud Bavdhan"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.shivajinagargh",
+      "enabled": true,
+      "email": "pmc.lic.shivajinagargh@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Shivajinagar Ghole Road"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.dholepatil",
+      "enabled": true,
+      "email": "pmc.lic.dholepatil@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Dhole Patil"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.nagarroadvadga",
+      "enabled": true,
+      "email": "pmc.lic.nagarroadvadga@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Nagar Road Vadgaon Sheri"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.yerwadakalasdh",
+      "enabled": true,
+      "email": "pmc.lic.yerwadakalasdh@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Yerwada Kalas Dhanori"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.lic.sinhagadroad",
+      "enabled": true,
+      "email": "pmc.lic.sinhagadroad@municipal.local",
+      "firstName": "PMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - Sinhagad Road"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.viewer1",
+      "enabled": true,
+      "email": "pmc.viewer1@municipal.local",
+      "firstName": "PMC",
+      "lastName": "Citizen Facilitation Centre",
+      "attributes": {
+        "department": [
+          "Citizen Facilitation Centre"
+        ]
+      },
+      "realmRoles": [
+        "viewer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.viewer2",
+      "enabled": true,
+      "email": "pmc.viewer2@municipal.local",
+      "firstName": "PMC",
+      "lastName": "Citizen Facilitation Centre",
+      "attributes": {
+        "department": [
+          "Citizen Facilitation Centre"
+        ]
+      },
+      "realmRoles": [
+        "viewer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.viewer3",
+      "enabled": true,
+      "email": "pmc.viewer3@municipal.local",
+      "firstName": "PMC",
+      "lastName": "Citizen Facilitation Centre",
+      "attributes": {
+        "department": [
+          "Citizen Facilitation Centre"
+        ]
+      },
+      "realmRoles": [
+        "viewer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "pmc.audit",
+      "enabled": true,
+      "email": "pmc.audit@municipal.local",
+      "firstName": "PMC",
+      "lastName": "Internal Audit",
+      "attributes": {
+        "department": [
+          "Internal Audit"
+        ]
+      },
+      "realmRoles": [
+        "auditor"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.admin",
+      "enabled": true,
+      "email": "bmc.admin@municipal.local",
+      "firstName": "BMC",
+      "lastName": "Municipal Administration",
+      "attributes": {
+        "department": [
+          "Municipal Administration"
+        ]
+      },
+      "realmRoles": [
+        "municipal-admin"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.award",
+      "enabled": true,
+      "email": "bmc.lic.award@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - A Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.bward",
+      "enabled": true,
+      "email": "bmc.lic.bward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - B Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.cward",
+      "enabled": true,
+      "email": "bmc.lic.cward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - C Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.dward",
+      "enabled": true,
+      "email": "bmc.lic.dward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - D Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.eward",
+      "enabled": true,
+      "email": "bmc.lic.eward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - E Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.fsward",
+      "enabled": true,
+      "email": "bmc.lic.fsward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - F/S Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.fnward",
+      "enabled": true,
+      "email": "bmc.lic.fnward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - F/N Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.gsward",
+      "enabled": true,
+      "email": "bmc.lic.gsward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - G/S Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.gnward",
+      "enabled": true,
+      "email": "bmc.lic.gnward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - G/N Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.heward",
+      "enabled": true,
+      "email": "bmc.lic.heward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - H/E Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.hwward",
+      "enabled": true,
+      "email": "bmc.lic.hwward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - H/W Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.keward",
+      "enabled": true,
+      "email": "bmc.lic.keward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - K/E Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.kwward",
+      "enabled": true,
+      "email": "bmc.lic.kwward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - K/W Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.psward",
+      "enabled": true,
+      "email": "bmc.lic.psward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - P/S Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.pnward",
+      "enabled": true,
+      "email": "bmc.lic.pnward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - P/N Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.rsward",
+      "enabled": true,
+      "email": "bmc.lic.rsward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - R/S Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.rcward",
+      "enabled": true,
+      "email": "bmc.lic.rcward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - R/C Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.rnward",
+      "enabled": true,
+      "email": "bmc.lic.rnward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - R/N Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.lward",
+      "enabled": true,
+      "email": "bmc.lic.lward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - L Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.meward",
+      "enabled": true,
+      "email": "bmc.lic.meward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - M/E Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.mwward",
+      "enabled": true,
+      "email": "bmc.lic.mwward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - M/W Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.nward",
+      "enabled": true,
+      "email": "bmc.lic.nward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - N Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.sward",
+      "enabled": true,
+      "email": "bmc.lic.sward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - S Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.lic.tward",
+      "enabled": true,
+      "email": "bmc.lic.tward@municipal.local",
+      "firstName": "BMC",
+      "lastName": "License Department",
+      "attributes": {
+        "department": [
+          "License Department - T Ward"
+        ]
+      },
+      "realmRoles": [
+        "licensing-officer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.viewer1",
+      "enabled": true,
+      "email": "bmc.viewer1@municipal.local",
+      "firstName": "BMC",
+      "lastName": "Citizen Facilitation Centre",
+      "attributes": {
+        "department": [
+          "Citizen Facilitation Centre"
+        ]
+      },
+      "realmRoles": [
+        "viewer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.viewer2",
+      "enabled": true,
+      "email": "bmc.viewer2@municipal.local",
+      "firstName": "BMC",
+      "lastName": "Citizen Facilitation Centre",
+      "attributes": {
+        "department": [
+          "Citizen Facilitation Centre"
+        ]
+      },
+      "realmRoles": [
+        "viewer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.viewer3",
+      "enabled": true,
+      "email": "bmc.viewer3@municipal.local",
+      "firstName": "BMC",
+      "lastName": "Citizen Facilitation Centre",
+      "attributes": {
+        "department": [
+          "Citizen Facilitation Centre"
+        ]
+      },
+      "realmRoles": [
+        "viewer"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    },
+    {
+      "username": "bmc.audit",
+      "enabled": true,
+      "email": "bmc.audit@municipal.local",
+      "firstName": "BMC",
+      "lastName": "Internal Audit",
+      "attributes": {
+        "department": [
+          "Internal Audit"
+        ]
+      },
+      "realmRoles": [
+        "auditor"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "ChangeMe!2026",
+          "temporary": true
+        }
+      ]
+    }
+  ]
+}

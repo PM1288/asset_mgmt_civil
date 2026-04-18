@@ -1,0 +1,6 @@
+BMC-TRD-2026-000027
+site_photo_note
+Ward: S Ward
+City: Mumbai
+Applicant: Mahesh Patel
+Generated for synthetic demo use only.

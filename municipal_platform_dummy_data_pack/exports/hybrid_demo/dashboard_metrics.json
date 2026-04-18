@@ -1,0 +1,83 @@
+{
+  "public_reference_metrics": [
+    {
+      "city": "Pune",
+      "metric": "Property Tax & Water Tax receipts from citizens",
+      "financial_year": "2024-25",
+      "value_rupees": 7061924234,
+      "value_display": "₹706.19 crore",
+      "source_title": "PMC accounts: Property Tax & Water Tax from citizens",
+      "source_url": "https://opendata.pmc.gov.in/opendata/6f5d15dd-7fd3-4b53-8a01-f85a00848952.pdf",
+      "source_note": "Public PMC open-data statement line item for FY 2024-25"
+    },
+    {
+      "city": "Pune",
+      "metric": "Property Tax & Water Tax receipts from State Government",
+      "financial_year": "2024-25",
+      "value_rupees": 37810077,
+      "value_display": "₹3.78 crore",
+      "source_title": "PMC accounts: Property Tax & Water Tax from State Government",
+      "source_url": "https://opendata.pmc.gov.in/opendata/6f5d15dd-7fd3-4b53-8a01-f85a00848952.pdf",
+      "source_note": "Public PMC open-data statement line item for FY 2024-25"
+    },
+    {
+      "city": "Mumbai",
+      "metric": "Property Tax revised estimate",
+      "financial_year": "2024-25",
+      "value_rupees": 62000000000,
+      "value_display": "₹6,200 crore",
+      "source_title": "MCGM budget speech: Property Tax revised estimate",
+      "source_url": "https://www.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Accountant%20%28Finance%29/Budget/Budget%20Estimate%202025-2026/1-%20MC%27s%20Speech/BUDGET%20A%2CB%2CG/ENGLISH%20SPEECH.pdf",
+      "source_note": "2025-26 budget speech cites 2024-25 revised estimate"
+    },
+    {
+      "city": "Mumbai",
+      "metric": "Property Tax budget estimate",
+      "financial_year": "2025-26",
+      "value_rupees": 52000000000,
+      "value_display": "₹5,200 crore",
+      "source_title": "MCGM budget speech: Property Tax budget estimate",
+      "source_url": "https://www.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Accountant%20%28Finance%29/Budget/Budget%20Estimate%202025-2026/1-%20MC%27s%20Speech/BUDGET%20A%2CB%2CG/ENGLISH%20SPEECH.pdf",
+      "source_note": "2025-26 budget speech"
+    },
+    {
+      "city": "Mumbai",
+      "metric": "Receipts from Licence Department",
+      "financial_year": "2025-26",
+      "value_rupees": 3620000000,
+      "value_display": "₹362 crore",
+      "source_title": "MCGM budget speech: Receipts from Licence Department",
+      "source_url": "https://www.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Accountant%20%28Finance%29/Budget/Budget%20Estimate%202025-2026/1-%20MC%27s%20Speech/BUDGET%20A%2CB%2CG/ENGLISH%20SPEECH.pdf",
+      "source_note": "2025-26 budget speech"
+    }
+  ],
+  "synthetic_operational_metrics": [
+    {
+      "city": "Pune",
+      "open_properties": 673,
+      "open_licenses": 365,
+      "draft_licenses": 44,
+      "submitted_licenses": 87,
+      "under_review_licenses": 82,
+      "approved_licenses": 118,
+      "rejected_licenses": 34,
+      "avg_submission_to_decision_days": 8.9,
+      "on_time_decision_rate_percent": 96.7,
+      "profile_name": "hybrid_demo"
+    },
+    {
+      "city": "Mumbai",
+      "open_properties": 827,
+      "open_licenses": 445,
+      "draft_licenses": 46,
+      "submitted_licenses": 110,
+      "under_review_licenses": 127,
+      "approved_licenses": 134,
+      "rejected_licenses": 28,
+      "avg_submission_to_decision_days": 9.0,
+      "on_time_decision_rate_percent": 93.2,
+      "profile_name": "hybrid_demo"
+    }
+  ],
+  "generated_profile": "hybrid_demo"
+}

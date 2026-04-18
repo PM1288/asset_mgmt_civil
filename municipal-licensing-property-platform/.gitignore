@@ -1,0 +1,13 @@
+.env
+runtime/*
+!runtime/README.md
+!runtime/backups/
+!runtime/documents/
+!runtime/logs/
+!runtime/app/
+**/__pycache__/
+*.pyc
+node_modules/
+frontend/dist/
+.vscode/
+.idea/

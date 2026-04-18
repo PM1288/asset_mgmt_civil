@@ -1,0 +1,957 @@
+{
+  "pune_wards": [
+    {
+      "ward_code": "PMC-KVW",
+      "ward_name": "Kasba Vishrambagwada",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411011",
+        "411002",
+        "411030"
+      ],
+      "center": [
+        18.5195,
+        73.8553
+      ],
+      "weight": 0.075,
+      "areas": [
+        "Kasba Peth",
+        "Budhwar Peth",
+        "Vishrambag Wada",
+        "Narayan Peth",
+        "Shaniwar Peth"
+      ],
+      "zone": "Central"
+    },
+    {
+      "ward_code": "PMC-BP",
+      "ward_name": "Bhavani Peth",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411042",
+        "411011"
+      ],
+      "center": [
+        18.5052,
+        73.8684
+      ],
+      "weight": 0.04166666666666667,
+      "areas": [
+        "Bhavani Peth",
+        "Ganj Peth",
+        "Mahatma Phule Peth"
+      ],
+      "zone": "Central"
+    },
+    {
+      "ward_code": "PMC-BBW",
+      "ward_name": "Bibwewadi",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411037",
+        "411043"
+      ],
+      "center": [
+        18.4766,
+        73.8651
+      ],
+      "weight": 0.06666666666666667,
+      "areas": [
+        "Bibwewadi",
+        "Market Yard",
+        "Padmavati",
+        "Upper Indira Nagar"
+      ],
+      "zone": "South"
+    },
+    {
+      "ward_code": "PMC-TR",
+      "ward_name": "Tilak Road",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411030",
+        "411009"
+      ],
+      "center": [
+        18.5082,
+        73.8518
+      ],
+      "weight": 0.05,
+      "areas": [
+        "Sadashiv Peth",
+        "Tilak Road",
+        "Perugate",
+        "Navi Peth"
+      ],
+      "zone": "Central"
+    },
+    {
+      "ward_code": "PMC-DS",
+      "ward_name": "Dhankawadi Sahakarnagar",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411043",
+        "411009",
+        "411046"
+      ],
+      "center": [
+        18.4587,
+        73.8552
+      ],
+      "weight": 0.05833333333333334,
+      "areas": [
+        "Dhankawadi",
+        "Sahakarnagar",
+        "Balajinagar",
+        "Katraj"
+      ],
+      "zone": "South"
+    },
+    {
+      "ward_code": "PMC-HM",
+      "ward_name": "Hadapsar Mundhwa",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411028",
+        "411036"
+      ],
+      "center": [
+        18.4978,
+        73.9389
+      ],
+      "weight": 0.1,
+      "areas": [
+        "Hadapsar",
+        "Mundhwa",
+        "Magarpatta",
+        "Kharadi Annexe"
+      ],
+      "zone": "East"
+    },
+    {
+      "ward_code": "PMC-WR",
+      "ward_name": "Wanowrie Ramtekdi",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411040",
+        "411013"
+      ],
+      "center": [
+        18.4945,
+        73.9017
+      ],
+      "weight": 0.05833333333333334,
+      "areas": [
+        "Wanowrie",
+        "Fatima Nagar",
+        "Ramtekdi",
+        "Ghorpadi"
+      ],
+      "zone": "South-East"
+    },
+    {
+      "ward_code": "PMC-KY",
+      "ward_name": "Kondhwa Yewalewadi",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411048",
+        "411060"
+      ],
+      "center": [
+        18.4508,
+        73.8945
+      ],
+      "weight": 0.06666666666666667,
+      "areas": [
+        "Kondhwa",
+        "NIBM Road",
+        "Yewalewadi",
+        "Salunkhe Vihar"
+      ],
+      "zone": "South"
+    },
+    {
+      "ward_code": "PMC-AB",
+      "ward_name": "Aundh Baner",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411045",
+        "411007",
+        "411021"
+      ],
+      "center": [
+        18.5592,
+        73.807
+      ],
+      "weight": 0.08333333333333334,
+      "areas": [
+        "Aundh",
+        "Baner",
+        "Balewadi",
+        "Pashan Link"
+      ],
+      "zone": "West"
+    },
+    {
+      "ward_code": "PMC-WK",
+      "ward_name": "Warje Karvenagar",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411052",
+        "411058"
+      ],
+      "center": [
+        18.4897,
+        73.8069
+      ],
+      "weight": 0.05,
+      "areas": [
+        "Warje",
+        "Karvenagar",
+        "Erandwane Annexe"
+      ],
+      "zone": "West"
+    },
+    {
+      "ward_code": "PMC-KB",
+      "ward_name": "Kothrud Bavdhan",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411038",
+        "411021"
+      ],
+      "center": [
+        18.5074,
+        73.8077
+      ],
+      "weight": 0.075,
+      "areas": [
+        "Kothrud",
+        "Bavdhan",
+        "Paud Road",
+        "Mahatma Society"
+      ],
+      "zone": "West"
+    },
+    {
+      "ward_code": "PMC-SG",
+      "ward_name": "Shivajinagar Ghole Road",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411005",
+        "411004"
+      ],
+      "center": [
+        18.5313,
+        73.8447
+      ],
+      "weight": 0.04166666666666667,
+      "areas": [
+        "Shivajinagar",
+        "Ghole Road",
+        "JM Road",
+        "Deccan Gymkhana"
+      ],
+      "zone": "Central-West"
+    },
+    {
+      "ward_code": "PMC-DP",
+      "ward_name": "Dhole Patil",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411001",
+        "411014"
+      ],
+      "center": [
+        18.5335,
+        73.8796
+      ],
+      "weight": 0.04166666666666667,
+      "areas": [
+        "Dhole Patil Road",
+        "Koregaon Park",
+        "Boat Club Road",
+        "Bund Garden"
+      ],
+      "zone": "East-Central"
+    },
+    {
+      "ward_code": "PMC-NR",
+      "ward_name": "Nagar Road Vadgaon Sheri",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411014",
+        "411006"
+      ],
+      "center": [
+        18.555,
+        73.9253
+      ],
+      "weight": 0.075,
+      "areas": [
+        "Vadgaon Sheri",
+        "Kalyani Nagar",
+        "Viman Nagar",
+        "Nagar Road"
+      ],
+      "zone": "East"
+    },
+    {
+      "ward_code": "PMC-YKD",
+      "ward_name": "Yerwada Kalas Dhanori",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411006",
+        "411015",
+        "411032"
+      ],
+      "center": [
+        18.5685,
+        73.903
+      ],
+      "weight": 0.05,
+      "areas": [
+        "Yerwada",
+        "Kalas",
+        "Dhanori",
+        "Phulenagar"
+      ],
+      "zone": "North-East"
+    },
+    {
+      "ward_code": "PMC-SR",
+      "ward_name": "Sinhagad Road",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "411051",
+        "411041"
+      ],
+      "center": [
+        18.4592,
+        73.8299
+      ],
+      "weight": 0.06666666666666667,
+      "areas": [
+        "Sinhagad Road",
+        "Narhe",
+        "Dhayari",
+        "Anand Nagar"
+      ],
+      "zone": "South-West"
+    }
+  ],
+  "mumbai_wards": [
+    {
+      "ward_code": "MCGM-A",
+      "ward_name": "A Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400001"
+      ],
+      "center": [
+        18.9367,
+        72.8352
+      ],
+      "weight": 0.03139013452914798,
+      "areas": [
+        "Fort",
+        "Colaba",
+        "Cuffe Parade"
+      ],
+      "zone": "Island City",
+      "office_address": "134 E, Shahid Bhagatsingh Marg, Near RBI, Mumbai 400001"
+    },
+    {
+      "ward_code": "MCGM-B",
+      "ward_name": "B Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400009"
+      ],
+      "center": [
+        18.9639,
+        72.8331
+      ],
+      "weight": 0.026905829596412554,
+      "areas": [
+        "Dongri",
+        "Bhuleshwar",
+        "J J Precinct"
+      ],
+      "zone": "Island City",
+      "office_address": "121, Ramchandra Bhatt Marg, Babula Tank Cross Lane, Opp. J. J. Hospital, Dongari, Mumbai 400009"
+    },
+    {
+      "ward_code": "MCGM-C",
+      "ward_name": "C Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400002"
+      ],
+      "center": [
+        18.9553,
+        72.8262
+      ],
+      "weight": 0.022421524663677132,
+      "areas": [
+        "Marine Lines East",
+        "Kalbadevi",
+        "Chandanwadi"
+      ],
+      "zone": "Island City",
+      "office_address": "76, Shrikant Palekar Marg, Chandanwadi, Marine Lines (E), Mumbai 400002"
+    },
+    {
+      "ward_code": "MCGM-D",
+      "ward_name": "D Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400007"
+      ],
+      "center": [
+        18.963,
+        72.8089
+      ],
+      "weight": 0.026905829596412554,
+      "areas": [
+        "Grant Road",
+        "Walkeshwar",
+        "Nana Chowk"
+      ],
+      "zone": "Island City",
+      "office_address": "Jobanputra Compound, Nana Chowk, Grant Road (W), Mumbai 400007"
+    },
+    {
+      "ward_code": "MCGM-E",
+      "ward_name": "E Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400008"
+      ],
+      "center": [
+        18.9772,
+        72.8333
+      ],
+      "weight": 0.026905829596412554,
+      "areas": [
+        "Byculla",
+        "Mazgaon",
+        "Reay Road"
+      ],
+      "zone": "Island City",
+      "office_address": "10, Shaikh Hafijuddin Marg, Byculla (W), Mumbai 400008"
+    },
+    {
+      "ward_code": "MCGM-FS",
+      "ward_name": "F/S Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400012"
+      ],
+      "center": [
+        19.0038,
+        72.8415
+      ],
+      "weight": 0.03587443946188341,
+      "areas": [
+        "Parel",
+        "Sewri",
+        "Bhoiwada"
+      ],
+      "zone": "City",
+      "office_address": "Dr. Ambedkar Road, Jagannath Bhatankar Marg Junction, Parel, Mumbai 400012"
+    },
+    {
+      "ward_code": "MCGM-FN",
+      "ward_name": "F/N Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400019"
+      ],
+      "center": [
+        19.028,
+        72.8579
+      ],
+      "weight": 0.03587443946188341,
+      "areas": [
+        "Matunga East",
+        "Sion",
+        "Wadala East"
+      ],
+      "zone": "City",
+      "office_address": "Plot No.96, Bhau Daji Marg, Kings Circle, Matunga (E), Mumbai 400019"
+    },
+    {
+      "ward_code": "MCGM-GS",
+      "ward_name": "G/S Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400013"
+      ],
+      "center": [
+        19.005,
+        72.8274
+      ],
+      "weight": 0.03139013452914798,
+      "areas": [
+        "Worli",
+        "Prabhadevi",
+        "Lower Parel"
+      ],
+      "zone": "City",
+      "office_address": "Dhanmill Naka, N. M. Joshi Marg, Mumbai 400013"
+    },
+    {
+      "ward_code": "MCGM-GN",
+      "ward_name": "G/N Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400028"
+      ],
+      "center": [
+        19.0203,
+        72.839
+      ],
+      "weight": 0.03139013452914798,
+      "areas": [
+        "Dadar West",
+        "Mahim",
+        "Shivaji Park"
+      ],
+      "zone": "City",
+      "office_address": "Room No.20, 1st Floor, Harishchandra Yewale Marg, Behind Plaza Cinema, Dadar (W), Mumbai 400028"
+    },
+    {
+      "ward_code": "MCGM-HE",
+      "ward_name": "H/E Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400055"
+      ],
+      "center": [
+        19.0812,
+        72.842
+      ],
+      "weight": 0.044843049327354265,
+      "areas": [
+        "Santacruz East",
+        "Vakola",
+        "Kalina"
+      ],
+      "zone": "Western Suburbs",
+      "office_address": "Plot No. 137, TPS-5, Road No. 2, Prabhat Colony, Santacruz (E), Mumbai 400055"
+    },
+    {
+      "ward_code": "MCGM-HW",
+      "ward_name": "H/W Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400050"
+      ],
+      "center": [
+        19.0556,
+        72.8295
+      ],
+      "weight": 0.044843049327354265,
+      "areas": [
+        "Bandra West",
+        "Khar West",
+        "Pali Hill"
+      ],
+      "zone": "Western Suburbs",
+      "office_address": "Saint Martin's Road, Behind Bandra police station, Bandra (W), Mumbai 400050"
+    },
+    {
+      "ward_code": "MCGM-KE",
+      "ward_name": "K/E Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400069"
+      ],
+      "center": [
+        19.1148,
+        72.8548
+      ],
+      "weight": 0.06278026905829596,
+      "areas": [
+        "Andheri East",
+        "Marol",
+        "JB Nagar"
+      ],
+      "zone": "Western Suburbs",
+      "office_address": "Azad Road, Gundavli, Andheri (E), Mumbai 400069"
+    },
+    {
+      "ward_code": "MCGM-KW",
+      "ward_name": "K/W Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400058"
+      ],
+      "center": [
+        19.127,
+        72.8401
+      ],
+      "weight": 0.06278026905829596,
+      "areas": [
+        "Andheri West",
+        "Lokhandwala",
+        "Versova"
+      ],
+      "zone": "Western Suburbs",
+      "office_address": "Paliram Road, Opp. Andheri Bus Depot, Near Swami Vivekanand Road, Andheri (W), Mumbai 400058"
+    },
+    {
+      "ward_code": "MCGM-PS",
+      "ward_name": "P/S Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400104"
+      ],
+      "center": [
+        19.1642,
+        72.8427
+      ],
+      "weight": 0.04932735426008969,
+      "areas": [
+        "Goregaon West",
+        "Motilal Nagar",
+        "Bangur Nagar"
+      ],
+      "zone": "Western Suburbs",
+      "office_address": "CTS No.746 & Village Pahadi, Swami Vivekanand Marg, Goregaon (W), Mumbai 400104"
+    },
+    {
+      "ward_code": "MCGM-PN",
+      "ward_name": "P/N Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400064"
+      ],
+      "center": [
+        19.186,
+        72.841
+      ],
+      "weight": 0.05381165919282511,
+      "areas": [
+        "Malad West",
+        "Liberty Garden",
+        "Evershine Nagar"
+      ],
+      "zone": "Western Suburbs",
+      "office_address": "Liberty Garden, Mamledarwadi Marg, Malad (W), Mumbai 400064"
+    },
+    {
+      "ward_code": "MCGM-RS",
+      "ward_name": "R/S Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400067"
+      ],
+      "center": [
+        19.2058,
+        72.8414
+      ],
+      "weight": 0.05381165919282511,
+      "areas": [
+        "Kandivali West",
+        "Mahavir Nagar",
+        "Charkop"
+      ],
+      "zone": "Western Suburbs",
+      "office_address": "Mahatma Gandhi Cross Road No.2, Near Sardar Patel Swimming Pool, Kandivali (W), Mumbai 400067"
+    },
+    {
+      "ward_code": "MCGM-RC",
+      "ward_name": "R/C Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400092"
+      ],
+      "center": [
+        19.2335,
+        72.8472
+      ],
+      "weight": 0.05381165919282511,
+      "areas": [
+        "Borivali West",
+        "Chandavarkar Road",
+        "Eksar"
+      ],
+      "zone": "Western Suburbs",
+      "office_address": "F.P. No. 44, T.P.S. No. 1, Chandawarkar Road, Borivali (W), Mumbai 400092"
+    },
+    {
+      "ward_code": "MCGM-RN",
+      "ward_name": "R/N Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400068"
+      ],
+      "center": [
+        19.2524,
+        72.8589
+      ],
+      "weight": 0.04035874439461883,
+      "areas": [
+        "Dahisar West",
+        "Rawalpada",
+        "Anand Nagar"
+      ],
+      "zone": "Western Suburbs",
+      "office_address": "Below Sangeetkar Sudhir Phadke Flyover, Jaywant Sawant Marg, Dahisar (W), Mumbai 400068"
+    },
+    {
+      "ward_code": "MCGM-L",
+      "ward_name": "L Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400070"
+      ],
+      "center": [
+        19.076,
+        72.8787
+      ],
+      "weight": 0.05381165919282511,
+      "areas": [
+        "Kurla West",
+        "Kurla East",
+        "Bail Bazar"
+      ],
+      "zone": "Eastern Suburbs",
+      "office_address": "Laxmanrao Yadav Market Building, 1st Floor, S. G. Barve Marg, Kurla (W), Mumbai 400070"
+    },
+    {
+      "ward_code": "MCGM-ME",
+      "ward_name": "M/E Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400043"
+      ],
+      "center": [
+        19.0515,
+        72.9155
+      ],
+      "weight": 0.04035874439461883,
+      "areas": [
+        "Govandi",
+        "Deonar",
+        "Mankhurd"
+      ],
+      "zone": "Eastern Suburbs",
+      "office_address": "Late Madhukar Tukaram Kadam Marg & Periferi Road junction, Deonar Municipal Colony, Govandi, Mumbai 400043"
+    },
+    {
+      "ward_code": "MCGM-MW",
+      "ward_name": "M/W Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400071"
+      ],
+      "center": [
+        19.0626,
+        72.8996
+      ],
+      "weight": 0.04035874439461883,
+      "areas": [
+        "Chembur",
+        "Tilak Nagar",
+        "Deonar Annexe"
+      ],
+      "zone": "Eastern Suburbs",
+      "office_address": "Sharadbhau Acharya Marg, Near Natraj Cinema, Chembur, Mumbai 400071"
+    },
+    {
+      "ward_code": "MCGM-N",
+      "ward_name": "N Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400077"
+      ],
+      "center": [
+        19.0817,
+        72.9101
+      ],
+      "weight": 0.044843049327354265,
+      "areas": [
+        "Ghatkopar East",
+        "Pant Nagar",
+        "Vidyavihar East"
+      ],
+      "zone": "Eastern Suburbs",
+      "office_address": "N Ward Annex Bldg., Jawahar Road, Ghatkopar (E), Mumbai 400077"
+    },
+    {
+      "ward_code": "MCGM-S",
+      "ward_name": "S Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400078"
+      ],
+      "center": [
+        19.1511,
+        72.9381
+      ],
+      "weight": 0.044843049327354265,
+      "areas": [
+        "Bhandup West",
+        "Kanjurmarg",
+        "Nahur"
+      ],
+      "zone": "Eastern Suburbs",
+      "office_address": "Lal Bahadur Shastri Marg, Near Mangatram Petrol Pump, Bhandup (W), Mumbai 400078"
+    },
+    {
+      "ward_code": "MCGM-T",
+      "ward_name": "T Ward",
+      "city": "Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "postal_codes": [
+        "400080"
+      ],
+      "center": [
+        19.1723,
+        72.956
+      ],
+      "weight": 0.04035874439461883,
+      "areas": [
+        "Mulund West",
+        "Mulund East",
+        "Nahur East"
+      ],
+      "zone": "Eastern Suburbs",
+      "office_address": "Lala Devidayal Marg, Mulund (W), Mumbai 400080"
+    }
+  ],
+  "public_reference_metrics": [
+    {
+      "city": "Pune",
+      "metric": "Property Tax & Water Tax receipts from citizens",
+      "financial_year": "2024-25",
+      "value_rupees": 7061924234,
+      "value_display": "₹706.19 crore",
+      "source_title": "PMC accounts: Property Tax & Water Tax from citizens",
+      "source_url": "https://opendata.pmc.gov.in/opendata/6f5d15dd-7fd3-4b53-8a01-f85a00848952.pdf",
+      "source_note": "Public PMC open-data statement line item for FY 2024-25"
+    },
+    {
+      "city": "Pune",
+      "metric": "Property Tax & Water Tax receipts from State Government",
+      "financial_year": "2024-25",
+      "value_rupees": 37810077,
+      "value_display": "₹3.78 crore",
+      "source_title": "PMC accounts: Property Tax & Water Tax from State Government",
+      "source_url": "https://opendata.pmc.gov.in/opendata/6f5d15dd-7fd3-4b53-8a01-f85a00848952.pdf",
+      "source_note": "Public PMC open-data statement line item for FY 2024-25"
+    },
+    {
+      "city": "Mumbai",
+      "metric": "Property Tax revised estimate",
+      "financial_year": "2024-25",
+      "value_rupees": 62000000000,
+      "value_display": "₹6,200 crore",
+      "source_title": "MCGM budget speech: Property Tax revised estimate",
+      "source_url": "https://www.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Accountant%20%28Finance%29/Budget/Budget%20Estimate%202025-2026/1-%20MC%27s%20Speech/BUDGET%20A%2CB%2CG/ENGLISH%20SPEECH.pdf",
+      "source_note": "2025-26 budget speech cites 2024-25 revised estimate"
+    },
+    {
+      "city": "Mumbai",
+      "metric": "Property Tax budget estimate",
+      "financial_year": "2025-26",
+      "value_rupees": 52000000000,
+      "value_display": "₹5,200 crore",
+      "source_title": "MCGM budget speech: Property Tax budget estimate",
+      "source_url": "https://www.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Accountant%20%28Finance%29/Budget/Budget%20Estimate%202025-2026/1-%20MC%27s%20Speech/BUDGET%20A%2CB%2CG/ENGLISH%20SPEECH.pdf",
+      "source_note": "2025-26 budget speech"
+    },
+    {
+      "city": "Mumbai",
+      "metric": "Receipts from Licence Department",
+      "financial_year": "2025-26",
+      "value_rupees": 3620000000,
+      "value_display": "₹362 crore",
+      "source_title": "MCGM budget speech: Receipts from Licence Department",
+      "source_url": "https://www.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Accountant%20%28Finance%29/Budget/Budget%20Estimate%202025-2026/1-%20MC%27s%20Speech/BUDGET%20A%2CB%2CG/ENGLISH%20SPEECH.pdf",
+      "source_note": "2025-26 budget speech"
+    }
+  ]
+}

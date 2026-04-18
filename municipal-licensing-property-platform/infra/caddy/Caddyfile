@@ -1,0 +1,47 @@
+{
+    admin off
+    storage file_system {
+        root /data
+    }
+    servers {
+        trusted_proxies static private_ranges
+    }
+}
+
+http://{$APP_HOSTNAME:localhost}:8080 {
+    redir https://{$APP_HOSTNAME:localhost}:8443{uri} permanent
+}
+
+https://{$APP_HOSTNAME:localhost}:8443 {
+    tls internal
+    encode gzip zstd
+
+    handle /auth/* {
+        reverse_proxy keycloak:8080
+    }
+
+    @api path /api/* /health/* /metrics /docs* /openapi.json /redoc*
+    handle @api {
+        reverse_proxy api:8000 {
+            health_uri /health/live
+            health_interval 30s
+            transport http {
+                read_timeout 120s
+                write_timeout 120s
+                dial_timeout 5s
+                response_header_timeout 30s
+            }
+        }
+    }
+
+    handle {
+        reverse_proxy frontend:80
+    }
+
+    header {
+        X-Content-Type-Options nosniff
+        X-Frame-Options DENY
+        Referrer-Policy strict-origin-when-cross-origin
+        Permissions-Policy "geolocation=()"
+    }
+}

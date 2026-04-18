@@ -1,0 +1,41 @@
+ward_code,ward_name,city,district,state,postal_codes,center,weight,areas,zone,office_address
+PMC-KVW,Kasba Vishrambagwada,Pune,Pune,Maharashtra,411011; 411002; 411030,"18.5195, 73.8553",0.075,Kasba Peth; Budhwar Peth; Vishrambag Wada; Narayan Peth; Shaniwar Peth,Central,
+PMC-BP,Bhavani Peth,Pune,Pune,Maharashtra,411042; 411011,"18.5052, 73.8684",0.04166666666666667,Bhavani Peth; Ganj Peth; Mahatma Phule Peth,Central,
+PMC-BBW,Bibwewadi,Pune,Pune,Maharashtra,411037; 411043,"18.4766, 73.8651",0.06666666666666667,Bibwewadi; Market Yard; Padmavati; Upper Indira Nagar,South,
+PMC-TR,Tilak Road,Pune,Pune,Maharashtra,411030; 411009,"18.5082, 73.8518",0.05,Sadashiv Peth; Tilak Road; Perugate; Navi Peth,Central,
+PMC-DS,Dhankawadi Sahakarnagar,Pune,Pune,Maharashtra,411043; 411009; 411046,"18.4587, 73.8552",0.05833333333333334,Dhankawadi; Sahakarnagar; Balajinagar; Katraj,South,
+PMC-HM,Hadapsar Mundhwa,Pune,Pune,Maharashtra,411028; 411036,"18.4978, 73.9389",0.1,Hadapsar; Mundhwa; Magarpatta; Kharadi Annexe,East,
+PMC-WR,Wanowrie Ramtekdi,Pune,Pune,Maharashtra,411040; 411013,"18.4945, 73.9017",0.05833333333333334,Wanowrie; Fatima Nagar; Ramtekdi; Ghorpadi,South-East,
+PMC-KY,Kondhwa Yewalewadi,Pune,Pune,Maharashtra,411048; 411060,"18.4508, 73.8945",0.06666666666666667,Kondhwa; NIBM Road; Yewalewadi; Salunkhe Vihar,South,
+PMC-AB,Aundh Baner,Pune,Pune,Maharashtra,411045; 411007; 411021,"18.5592, 73.807",0.08333333333333334,Aundh; Baner; Balewadi; Pashan Link,West,
+PMC-WK,Warje Karvenagar,Pune,Pune,Maharashtra,411052; 411058,"18.4897, 73.8069",0.05,Warje; Karvenagar; Erandwane Annexe,West,
+PMC-KB,Kothrud Bavdhan,Pune,Pune,Maharashtra,411038; 411021,"18.5074, 73.8077",0.075,Kothrud; Bavdhan; Paud Road; Mahatma Society,West,
+PMC-SG,Shivajinagar Ghole Road,Pune,Pune,Maharashtra,411005; 411004,"18.5313, 73.8447",0.04166666666666667,Shivajinagar; Ghole Road; JM Road; Deccan Gymkhana,Central-West,
+PMC-DP,Dhole Patil,Pune,Pune,Maharashtra,411001; 411014,"18.5335, 73.8796",0.04166666666666667,Dhole Patil Road; Koregaon Park; Boat Club Road; Bund Garden,East-Central,
+PMC-NR,Nagar Road Vadgaon Sheri,Pune,Pune,Maharashtra,411014; 411006,"18.555, 73.9253",0.075,Vadgaon Sheri; Kalyani Nagar; Viman Nagar; Nagar Road,East,
+PMC-YKD,Yerwada Kalas Dhanori,Pune,Pune,Maharashtra,411006; 411015; 411032,"18.5685, 73.903",0.05,Yerwada; Kalas; Dhanori; Phulenagar,North-East,
+PMC-SR,Sinhagad Road,Pune,Pune,Maharashtra,411051; 411041,"18.4592, 73.8299",0.06666666666666667,Sinhagad Road; Narhe; Dhayari; Anand Nagar,South-West,
+MCGM-A,A Ward,Mumbai,Mumbai,Maharashtra,400001,"18.9367, 72.8352",0.03139013452914798,Fort; Colaba; Cuffe Parade,Island City,"134 E, Shahid Bhagatsingh Marg, Near RBI, Mumbai 400001"
+MCGM-B,B Ward,Mumbai,Mumbai,Maharashtra,400009,"18.9639, 72.8331",0.026905829596412554,Dongri; Bhuleshwar; J J Precinct,Island City,"121, Ramchandra Bhatt Marg, Babula Tank Cross Lane, Opp. J. J. Hospital, Dongari, Mumbai 400009"
+MCGM-C,C Ward,Mumbai,Mumbai,Maharashtra,400002,"18.9553, 72.8262",0.022421524663677132,Marine Lines East; Kalbadevi; Chandanwadi,Island City,"76, Shrikant Palekar Marg, Chandanwadi, Marine Lines (E), Mumbai 400002"
+MCGM-D,D Ward,Mumbai,Mumbai,Maharashtra,400007,"18.963, 72.8089",0.026905829596412554,Grant Road; Walkeshwar; Nana Chowk,Island City,"Jobanputra Compound, Nana Chowk, Grant Road (W), Mumbai 400007"
+MCGM-E,E Ward,Mumbai,Mumbai,Maharashtra,400008,"18.9772, 72.8333",0.026905829596412554,Byculla; Mazgaon; Reay Road,Island City,"10, Shaikh Hafijuddin Marg, Byculla (W), Mumbai 400008"
+MCGM-FS,F/S Ward,Mumbai,Mumbai,Maharashtra,400012,"19.0038, 72.8415",0.03587443946188341,Parel; Sewri; Bhoiwada,City,"Dr. Ambedkar Road, Jagannath Bhatankar Marg Junction, Parel, Mumbai 400012"
+MCGM-FN,F/N Ward,Mumbai,Mumbai,Maharashtra,400019,"19.028, 72.8579",0.03587443946188341,Matunga East; Sion; Wadala East,City,"Plot No.96, Bhau Daji Marg, Kings Circle, Matunga (E), Mumbai 400019"
+MCGM-GS,G/S Ward,Mumbai,Mumbai,Maharashtra,400013,"19.005, 72.8274",0.03139013452914798,Worli; Prabhadevi; Lower Parel,City,"Dhanmill Naka, N. M. Joshi Marg, Mumbai 400013"
+MCGM-GN,G/N Ward,Mumbai,Mumbai,Maharashtra,400028,"19.0203, 72.839",0.03139013452914798,Dadar West; Mahim; Shivaji Park,City,"Room No.20, 1st Floor, Harishchandra Yewale Marg, Behind Plaza Cinema, Dadar (W), Mumbai 400028"
+MCGM-HE,H/E Ward,Mumbai,Mumbai,Maharashtra,400055,"19.0812, 72.842",0.044843049327354265,Santacruz East; Vakola; Kalina,Western Suburbs,"Plot No. 137, TPS-5, Road No. 2, Prabhat Colony, Santacruz (E), Mumbai 400055"
+MCGM-HW,H/W Ward,Mumbai,Mumbai,Maharashtra,400050,"19.0556, 72.8295",0.044843049327354265,Bandra West; Khar West; Pali Hill,Western Suburbs,"Saint Martin's Road, Behind Bandra police station, Bandra (W), Mumbai 400050"
+MCGM-KE,K/E Ward,Mumbai,Mumbai,Maharashtra,400069,"19.1148, 72.8548",0.06278026905829596,Andheri East; Marol; JB Nagar,Western Suburbs,"Azad Road, Gundavli, Andheri (E), Mumbai 400069"
+MCGM-KW,K/W Ward,Mumbai,Mumbai,Maharashtra,400058,"19.127, 72.8401",0.06278026905829596,Andheri West; Lokhandwala; Versova,Western Suburbs,"Paliram Road, Opp. Andheri Bus Depot, Near Swami Vivekanand Road, Andheri (W), Mumbai 400058"
+MCGM-PS,P/S Ward,Mumbai,Mumbai,Maharashtra,400104,"19.1642, 72.8427",0.04932735426008969,Goregaon West; Motilal Nagar; Bangur Nagar,Western Suburbs,"CTS No.746 & Village Pahadi, Swami Vivekanand Marg, Goregaon (W), Mumbai 400104"
+MCGM-PN,P/N Ward,Mumbai,Mumbai,Maharashtra,400064,"19.186, 72.841",0.05381165919282511,Malad West; Liberty Garden; Evershine Nagar,Western Suburbs,"Liberty Garden, Mamledarwadi Marg, Malad (W), Mumbai 400064"
+MCGM-RS,R/S Ward,Mumbai,Mumbai,Maharashtra,400067,"19.2058, 72.8414",0.05381165919282511,Kandivali West; Mahavir Nagar; Charkop,Western Suburbs,"Mahatma Gandhi Cross Road No.2, Near Sardar Patel Swimming Pool, Kandivali (W), Mumbai 400067"
+MCGM-RC,R/C Ward,Mumbai,Mumbai,Maharashtra,400092,"19.2335, 72.8472",0.05381165919282511,Borivali West; Chandavarkar Road; Eksar,Western Suburbs,"F.P. No. 44, T.P.S. No. 1, Chandawarkar Road, Borivali (W), Mumbai 400092"
+MCGM-RN,R/N Ward,Mumbai,Mumbai,Maharashtra,400068,"19.2524, 72.8589",0.04035874439461883,Dahisar West; Rawalpada; Anand Nagar,Western Suburbs,"Below Sangeetkar Sudhir Phadke Flyover, Jaywant Sawant Marg, Dahisar (W), Mumbai 400068"
+MCGM-L,L Ward,Mumbai,Mumbai,Maharashtra,400070,"19.076, 72.8787",0.05381165919282511,Kurla West; Kurla East; Bail Bazar,Eastern Suburbs,"Laxmanrao Yadav Market Building, 1st Floor, S. G. Barve Marg, Kurla (W), Mumbai 400070"
+MCGM-ME,M/E Ward,Mumbai,Mumbai,Maharashtra,400043,"19.0515, 72.9155",0.04035874439461883,Govandi; Deonar; Mankhurd,Eastern Suburbs,"Late Madhukar Tukaram Kadam Marg & Periferi Road junction, Deonar Municipal Colony, Govandi, Mumbai 400043"
+MCGM-MW,M/W Ward,Mumbai,Mumbai,Maharashtra,400071,"19.0626, 72.8996",0.04035874439461883,Chembur; Tilak Nagar; Deonar Annexe,Eastern Suburbs,"Sharadbhau Acharya Marg, Near Natraj Cinema, Chembur, Mumbai 400071"
+MCGM-N,N Ward,Mumbai,Mumbai,Maharashtra,400077,"19.0817, 72.9101",0.044843049327354265,Ghatkopar East; Pant Nagar; Vidyavihar East,Eastern Suburbs,"N Ward Annex Bldg., Jawahar Road, Ghatkopar (E), Mumbai 400077"
+MCGM-S,S Ward,Mumbai,Mumbai,Maharashtra,400078,"19.1511, 72.9381",0.044843049327354265,Bhandup West; Kanjurmarg; Nahur,Eastern Suburbs,"Lal Bahadur Shastri Marg, Near Mangatram Petrol Pump, Bhandup (W), Mumbai 400078"
+MCGM-T,T Ward,Mumbai,Mumbai,Maharashtra,400080,"19.1723, 72.956",0.04035874439461883,Mulund West; Mulund East; Nahur East,Eastern Suburbs,"Lala Devidayal Marg, Mulund (W), Mumbai 400080"

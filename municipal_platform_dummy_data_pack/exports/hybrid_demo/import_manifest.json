@@ -1,0 +1,9 @@
+{
+  "profile_name": "hybrid_demo",
+  "property_count": 1500,
+  "license_count": 810,
+  "document_stub_count": 120,
+  "workflow_event_count": 2367,
+  "audit_event_count": 1124,
+  "note": "Use integration/import_via_api.py to push current-schema JSONL payloads through the running application so encryption, audit logging, and workflow rules are preserved."
+}

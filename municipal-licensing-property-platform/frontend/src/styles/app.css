@@ -1,0 +1,133 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, system-ui, Arial, sans-serif;
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+  background: #f4f7fb;
+  color: #122033;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app-shell {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background: #122033;
+  color: white;
+  padding: 1rem;
+}
+
+.sidebar button {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+  background: #1d3354;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.sidebar button.active {
+  background: #2d79c7;
+}
+
+.content {
+  padding: 1.5rem;
+}
+
+.panel {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 8px 24px rgba(18, 32, 51, 0.08);
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.form-grid label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.form-grid input {
+  padding: 0.6rem;
+  border: 1px solid #b7c4d6;
+  border-radius: 8px;
+}
+
+.form-grid button {
+  align-self: end;
+  padding: 0.7rem;
+  border: 0;
+  border-radius: 8px;
+  background: #2d79c7;
+  color: white;
+  cursor: pointer;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th, .data-table td {
+  text-align: left;
+  padding: 0.6rem;
+  border-bottom: 1px solid #e4eaf2;
+}
+
+.error-box {
+  background: #ffebe9;
+  color: #8a1f17;
+  padding: 0.8rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.grid, .dashboard-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.metric-card, .health-card {
+  background: #eef5ff;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.health-card.bad {
+  background: #fff1f0;
+}
+
+.code-box {
+  background: #0d1117;
+  color: #d1e4ff;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow: auto;
+}

@@ -1,0 +1,6 @@
+PMC-OCC-2026-000042
+site_photo_note
+Ward: Tilak Road
+City: Pune
+Applicant: Akash Agarwal
+Generated for synthetic demo use only.

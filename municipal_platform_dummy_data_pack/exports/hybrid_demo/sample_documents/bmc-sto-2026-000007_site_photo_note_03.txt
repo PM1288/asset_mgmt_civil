@@ -1,0 +1,6 @@
+BMC-STO-2026-000007
+site_photo_note
+Ward: G/N Ward
+City: Mumbai
+Applicant: Rajesh Kulkarni
+Generated for synthetic demo use only.

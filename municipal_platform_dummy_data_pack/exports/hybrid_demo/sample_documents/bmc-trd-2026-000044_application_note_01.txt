@@ -1,0 +1,6 @@
+BMC-TRD-2026-000044
+application_note
+Ward: C Ward
+City: Mumbai
+Applicant: Nirman Decor
+Generated for synthetic demo use only.

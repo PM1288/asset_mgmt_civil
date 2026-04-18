@@ -1,0 +1,9 @@
+{
+  "profile_name": "developer_seed",
+  "property_count": 240,
+  "license_count": 125,
+  "document_stub_count": 120,
+  "workflow_event_count": 370,
+  "audit_event_count": 176,
+  "note": "Use integration/import_via_api.py to push current-schema JSONL payloads through the running application so encryption, audit logging, and workflow rules are preserved."
+}

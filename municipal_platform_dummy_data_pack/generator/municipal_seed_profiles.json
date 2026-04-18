@@ -1,0 +1,27 @@
+{
+  "developer_seed": {
+    "property_count": 240,
+    "license_ratio": 0.52,
+    "description": "Fast local developer seed for UI iteration and smoke testing."
+  },
+  "pune_demo": {
+    "property_count": 900,
+    "license_ratio": 0.55,
+    "description": "Pune-only demo seed based on PMC-style ward structure and workflow mix."
+  },
+  "mumbai_demo": {
+    "property_count": 1200,
+    "license_ratio": 0.53,
+    "description": "Mumbai-only demo seed based on MCGM ward structure and workflow mix."
+  },
+  "hybrid_demo": {
+    "property_count": 1500,
+    "license_ratio": 0.54,
+    "description": "Combined Maharashtra metro demo for stakeholder review and UAT."
+  },
+  "load_medium": {
+    "property_count": 5000,
+    "license_ratio": 0.56,
+    "description": "Medium load seed for dashboard, search, pagination and import-volume testing."
+  }
+}
