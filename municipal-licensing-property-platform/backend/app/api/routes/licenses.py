@@ -172,6 +172,28 @@ def reject_license(
     return entity
 
 
+@router.post("/{license_id}/revoke", response_model=LicenseOut)
+def revoke_license(
+    license_id: str,
+    payload: LicenseAction,
+    request: Request,
+    db: Session = Depends(get_db),
+    subject: SubjectContext = Depends(require_roles("municipal-admin", "licensing-officer")),
+):
+    entity = license_service.transition(
+        db,
+        license_id=license_id,
+        transition="revoke",
+        action=payload,
+        actor=subject.subject,
+        ip_address=_client_ip(request),
+    )
+    if not entity:
+        raise HTTPException(status_code=404, detail="License not found")
+    db.commit()
+    return entity
+
+
 @router.get("/{license_id}/documents", response_model=list[DocumentOut])
 def list_license_documents(
     license_id: str,

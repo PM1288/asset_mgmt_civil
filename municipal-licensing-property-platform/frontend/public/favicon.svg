@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Civic Services Portal</title>
+  <desc id="desc">Municipal building icon for the civic services portal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#eef5fb" />
+      <stop offset="100%" stop-color="#d7e9f6" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)" />
+  <path
+    d="M16 26.5 32 16l16 10.5V48H16Z"
+    fill="none"
+    stroke="#18496c"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="3"
+  />
+  <path
+    d="M24 48V31h16v17M20 27h24M26 24.5h12"
+    fill="none"
+    stroke="#21608f"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="3"
+  />
+</svg>

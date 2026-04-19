@@ -8,6 +8,7 @@ from app.db.models import Property
 from app.db.repositories.properties import PropertyRepository
 from app.schemas.property import PropertyCreate, PropertyOut, PropertyUpdate
 from app.services.audit_service import audit_service
+from app.services.workflow_service import workflow_service
 
 
 class PropertyService:
@@ -66,6 +67,17 @@ class PropertyService:
             remarks_enc=encrypt_value(payload.remarks),
         )
         entity = self.repo.create(db, entity)
+        workflow_service.record(
+            db,
+            aggregate_type="property",
+            aggregate_id=entity.id,
+            action="create",
+            actor_subject=actor,
+            from_state=None,
+            to_state=entity.status,
+            comments="Property created",
+            license_id=None,
+        )
         audit_service.record(
             db,
             event_type="property.created",
@@ -116,6 +128,17 @@ class PropertyService:
         db.add(entity)
         db.flush()
         db.refresh(entity)
+        workflow_service.record(
+            db,
+            aggregate_type="property",
+            aggregate_id=entity.id,
+            action="update",
+            actor_subject=actor,
+            from_state=None,
+            to_state=entity.status,
+            comments="Property details updated",
+            license_id=None,
+        )
         audit_service.record(
             db,
             event_type="property.updated",

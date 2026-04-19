@@ -1,0 +1,17 @@
+{
+  "name": "Civic Services Portal",
+  "short_name": "Civic Services",
+  "description": "Official municipal portal for property records, licence applications, and service status.",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#f4f6f2",
+  "theme_color": "#21608f",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

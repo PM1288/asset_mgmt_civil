@@ -1,4 +1,4 @@
-import type { HealthEnvelope, Subject } from "../types";
+import type { DiagnosticsPayload, HealthEnvelope, Subject } from "../types";
 import { apiFetch } from "./client";
 
 export function getReadyHealth() {
@@ -10,5 +10,5 @@ export function getCurrentSubject() {
 }
 
 export function getDiagnostics() {
-  return apiFetch<Record<string, unknown>>("/api/v1/admin/diagnostics/dependencies");
+  return apiFetch<DiagnosticsPayload>("/api/v1/admin/diagnostics/dependencies");
 }

@@ -8,12 +8,7 @@
     }
 }
 
-http://{$APP_HOSTNAME:localhost}:8080 {
-    redir https://{$APP_HOSTNAME:localhost}:8443{uri} permanent
-}
-
-https://{$APP_HOSTNAME:localhost}:8443 {
-    tls internal
+:8080 {
     encode gzip zstd
 
     handle /auth/* {

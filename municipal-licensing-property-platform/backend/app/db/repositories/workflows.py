@@ -18,6 +18,10 @@ class WorkflowRepository:
         )
         return list(db.scalars(stmt).all())
 
+    def list_recent(self, db: Session, limit: int = 20) -> list[WorkflowEvent]:
+        stmt = select(WorkflowEvent).order_by(WorkflowEvent.created_at.desc()).limit(limit)
+        return list(db.scalars(stmt).all())
+
     def add(self, db: Session, entity: WorkflowEvent) -> WorkflowEvent:
         db.add(entity)
         db.flush()

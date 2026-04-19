@@ -50,8 +50,8 @@ class Settings(BaseSettings):
 
     allowed_origins: list[str] = Field(
         default_factory=lambda: [
-            "https://localhost:8443",
-            "https://127.0.0.1:8443",
+            "http://localhost:8080",
+            "http://127.0.0.1:8080",
         ]
     )
 

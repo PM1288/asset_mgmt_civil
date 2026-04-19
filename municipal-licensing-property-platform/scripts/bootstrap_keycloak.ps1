@@ -15,10 +15,15 @@ foreach ($pair in $envContent) {
 }
 
 Write-Info "Aligning Keycloak client redirect URIs and web origins to the configured hostname."
-$httpsPort = if ($env:HTTPS_PORT) { $env:HTTPS_PORT } else { "8443" }
 $realm = if ($env:KEYCLOAK_REALM) { $env:KEYCLOAK_REALM } else { "municipal" }
-$redirectUri = "https://$($env:APP_HOSTNAME):$httpsPort/*"
-$webOrigin = "https://$($env:APP_HOSTNAME):$httpsPort"
+$httpPort = if ($env:HTTP_PORT) { $env:HTTP_PORT } else { "8080" }
+$publicBaseUrl = if ($env:PUBLIC_BASE_URL) {
+    $env:PUBLIC_BASE_URL.TrimEnd("/")
+} else {
+    "http://$($env:APP_HOSTNAME):$httpPort"
+}
+$redirectUri = "$publicBaseUrl/*"
+$webOrigin = $publicBaseUrl
 
 docker compose --env-file $EnvFilePath exec -T keycloak /opt/keycloak/bin/kcadm.sh config credentials `
   --server http://127.0.0.1:8080/auth `

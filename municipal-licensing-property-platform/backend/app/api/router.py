@@ -2,9 +2,10 @@ from __future__ import annotations
 
 from fastapi import APIRouter
 
-from app.api.routes import admin, auth, documents, health, licenses, properties, workflows
+from app.api.routes import admin, auth, dashboard, documents, health, licenses, properties, workflows
 
 api_router = APIRouter()
+api_router.include_router(dashboard.router)
 api_router.include_router(auth.router)
 api_router.include_router(properties.router)
 api_router.include_router(licenses.router)

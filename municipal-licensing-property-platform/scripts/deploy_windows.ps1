@@ -43,6 +43,17 @@ if (-not (Test-Path $EnvFilePath)) {
 
 Set-Or-UpdateEnvValue -FilePath $EnvFilePath -Key "APP_HOSTNAME" -Value $DomainOrHostname
 
+$httpPort = "8080"
+$httpPortLine = Get-Content $EnvFilePath | Where-Object { $_ -match "^HTTP_PORT=" } | Select-Object -Last 1
+if ($httpPortLine) {
+    $httpPort = ($httpPortLine -split "=", 2)[1].Trim()
+}
+$defaultPublicBaseUrl = "http://$($DomainOrHostname):$httpPort"
+$publicBaseUrlLine = Get-Content $EnvFilePath | Where-Object { $_ -match "^PUBLIC_BASE_URL=" } | Select-Object -Last 1
+if (-not $publicBaseUrlLine) {
+    Set-Or-UpdateEnvValue -FilePath $EnvFilePath -Key "PUBLIC_BASE_URL" -Value $defaultPublicBaseUrl
+}
+
 $previousTag = ""
 if (Test-Path "runtime/app/release_state.json") {
     try {
@@ -81,12 +92,11 @@ Write-Info "Configuring Keycloak client settings"
 & "$PSScriptRoot/bootstrap_keycloak.ps1" -EnvFilePath $EnvFilePath
 
 Write-Info "Running smoke checks"
-$httpsPort = "8443"
-$httpsPortLine = Get-Content $EnvFilePath | Where-Object { $_ -match "^HTTPS_PORT=" } | Select-Object -Last 1
-if ($httpsPortLine) {
-    $httpsPort = ($httpsPortLine -split "=", 2)[1].Trim()
+$smokeBaseUrl = $defaultPublicBaseUrl
+$publicBaseUrlLine = Get-Content $EnvFilePath | Where-Object { $_ -match "^PUBLIC_BASE_URL=" } | Select-Object -Last 1
+if ($publicBaseUrlLine) {
+    $smokeBaseUrl = ($publicBaseUrlLine -split "=", 2)[1].Trim()
 }
-$smokeBaseUrl = "https://$($DomainOrHostname):$httpsPort"
 & "$PSScriptRoot/healthcheck_smoke_test.ps1" -BaseUrl $smokeBaseUrl
 
 $state = @{
