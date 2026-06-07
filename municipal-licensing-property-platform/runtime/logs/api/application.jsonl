@@ -7553,3 +7553,17 @@
 {"timestamp": "2026-06-06T14:29:03.580390+00:00", "level": "INFO", "logger": "uvicorn.access", "message": "192.168.16.7:59666 - \"GET /health/live HTTP/1.1\" 200", "module": "httptools_impl", "function": "send", "line": 476}
 {"timestamp": "2026-06-06T14:30:36.151137+00:00", "level": "INFO", "logger": "uvicorn.access", "message": "127.0.0.1:50166 - \"GET /health/live HTTP/1.1\" 200", "module": "httptools_impl", "function": "send", "line": 476}
 {"timestamp": "2026-06-06T14:31:03.946479+00:00", "level": "INFO", "logger": "uvicorn.access", "message": "192.168.16.7:52140 - \"GET /health/live HTTP/1.1\" 200", "module": "httptools_impl", "function": "send", "line": 476}
+{"timestamp": "2026-06-06T14:35:58.448615+00:00", "level": "INFO", "logger": "uvicorn.error", "message": "Started server process [13843]", "module": "server", "function": "_serve", "line": 83}
+{"timestamp": "2026-06-06T14:35:58.449824+00:00", "level": "INFO", "logger": "uvicorn.error", "message": "Waiting for application startup.", "module": "on", "function": "startup", "line": 48}
+{"timestamp": "2026-06-06T14:35:58.449542+00:00", "level": "INFO", "logger": "uvicorn.error", "message": "Started server process [13842]", "module": "server", "function": "_serve", "line": 83}
+{"timestamp": "2026-06-06T14:35:58.450477+00:00", "level": "INFO", "logger": "uvicorn.error", "message": "Waiting for application startup.", "module": "on", "function": "startup", "line": 48}
+{"timestamp": "2026-06-06T14:36:05.973533+00:00", "level": "INFO", "logger": "app.core.startup", "message": "startup preflight complete", "module": "startup", "function": "run_preflight", "line": 34}
+{"timestamp": "2026-06-06T14:36:05.974254+00:00", "level": "INFO", "logger": "app.core.startup", "message": "startup preflight complete", "module": "startup", "function": "run_preflight", "line": 34}
+{"timestamp": "2026-06-06T14:36:05.977177+00:00", "level": "INFO", "logger": "app.main", "message": "application starting", "module": "main", "function": "lifespan", "line": 26}
+{"timestamp": "2026-06-06T14:36:05.977309+00:00", "level": "INFO", "logger": "app.main", "message": "application starting", "module": "main", "function": "lifespan", "line": 26}
+{"timestamp": "2026-06-06T14:36:06.020015+00:00", "level": "INFO", "logger": "uvicorn.error", "message": "Application startup complete.", "module": "on", "function": "startup", "line": 62}
+{"timestamp": "2026-06-06T14:36:06.020169+00:00", "level": "INFO", "logger": "uvicorn.error", "message": "Application startup complete.", "module": "on", "function": "startup", "line": 62}
+{"timestamp": "2026-06-06T14:36:07.598370+00:00", "level": "INFO", "logger": "uvicorn.access", "message": "192.168.16.7:52906 - \"GET /health/live HTTP/1.1\" 200", "module": "httptools_impl", "function": "send", "line": 476}
+{"timestamp": "2026-06-06T14:36:33.799996+00:00", "level": "INFO", "logger": "uvicorn.access", "message": "192.168.16.7:46342 - \"GET /health/live HTTP/1.1\" 200", "module": "httptools_impl", "function": "send", "line": 476}
+{"timestamp": "2026-06-06T14:43:32.431698+00:00", "level": "WARNING", "logger": "app.core.rate_limit", "message": "redis rate-limit fallback activated: Error -3 connecting to redis:6379. Temporary failure in name resolution.", "module": "rate_limit", "function": "allow", "line": 41}
+{"timestamp": "2026-06-06T14:43:33.633267+00:00", "level": "INFO", "logger": "uvicorn.access", "message": "127.0.0.1:45112 - \"GET /health/live HTTP/1.1\" 200", "module": "httptools_impl", "function": "send", "line": 476}
