@@ -1,8 +1,0 @@
-{
-  "created_at": "20260514T165624Z",
-  "database_dump": "database.dump",
-  "database_sha256": "aae9db8b8cee2fe02ab2da7c6207a11388c49b304b898793032a5a84f1399155",
-  "documents_archive": "documents.tar.gz",
-  "documents_sha256": "c3a287f567e51033fc6c2429df47254c82d13a4b23215ba26eedddd45bb637ac",
-  "database_url_sanitized": "postgresql+psycopg://app:***@db:5432/appdb"
-}
